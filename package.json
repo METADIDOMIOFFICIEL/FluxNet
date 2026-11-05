@@ -1,0 +1,26 @@
+{
+  "name": "fluxnet",
+  "version": "1.0.0",
+  "description": "Pare-feu VPN local Android pour surveiller et contrôler le trafic réseau des applications",
+  "scripts": {
+    "build:debug": "node node_modules/metadidomi-builder/build_tools/build_apk.js debug",
+    "build:release": "node node_modules/metadidomi-builder/build_tools/build_apk.js release",
+    "build:offline": "node node_modules/metadidomi-builder/build_tools/build_apk.js debug --offline",
+    "build:release:offline": "node node_modules/metadidomi-builder/build_tools/build_apk.js release --offline",
+    "clean": "node node_modules/metadidomi-builder/build_tools/build_apk.js clean"
+  },
+  "keywords": [
+    "android",
+    "kotlin",
+    "jetpack-compose",
+    "vpn",
+    "firewall",
+    "network-monitoring",
+    "app-control"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "metadidomi-builder": "file:../GLOBAL/tools/metadidomi-builder"
+  }
+}

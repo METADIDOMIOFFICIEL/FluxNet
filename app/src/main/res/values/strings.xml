@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FluxNet</string>
+    <string name="nav_dashboard">Tableau</string>
+    <string name="nav_apps">Applications</string>
+    <string name="nav_plan">Forfait</string>
+    <string name="nav_community">Communauté</string>
+    <string name="notif_channel_alerts">Alertes de consommation</string>
+    <string name="notif_channel_alerts_desc">Notifications lorsque la consommation de données approche ou dépasse le seuil du forfait</string>
+    <string name="notif_channel_firewall">Bouclier Réseau</string>
+    <string name="notif_channel_firewall_desc">Service actif de contrôle Wi-Fi, données mobiles et arrière-plan</string>
+    <string name="device_admin_label">Bouclier FluxNet Anti-Désinstallation</string>
+    <string name="device_admin_description">Empêche la désinstallation et l\'arrêt forcé de l\'application FluxNet</string>
+</resources>
